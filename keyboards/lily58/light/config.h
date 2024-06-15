@@ -44,3 +44,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define CIRQUE_PINNACLE_SECONDARY_TAP_ENABLE
 #define POINTING_DEVICE_GESTURES_SCROLL_ENABLE
 #define POINTING_DEVICE_GESTURES_CURSOR_GLIDE_ENABLE
+#define NO_ACTION_ONESHOT

@@ -214,8 +214,8 @@ bool cirque_pinnacle_gestures(report_mouse_t* mouse_report, pinnacle_data_t touc
     circular_scroll_t scroll_report;
     if (features.circular_scroll_enable) {
         scroll_report         = circular_scroll(touchData);
-        mouse_report->v       = scroll_report.v;
-        mouse_report->h       = scroll_report.h;
+        mouse_report->v       = -scroll_report.v;
+        mouse_report->h       = -scroll_report.h;
         suppress_mouse_update = scroll_report.suppress_touch;
     }
 #endif
